@@ -23,8 +23,8 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 - **Climate & Environmental Data Processing:** `pyproj`
 - **Data Science & Statistical Analysis:** `numpy`, `pandas`, `scipy`
 - **Visualization & Mapping:** `matplotlib`, `cartopy`, `Folium`, `plotly`
-- **Remote Sensing & Fire Data:**
-- **Air Quality & Environmental Analysis:**
+- **Remote Sensing & Fire Data:** `rasterio`, `SentinelHub`, `PyTorch`
+- **Air Quality & Environmental Analysis:** `pandas`, `numpy`, `SciPy`, `Matplotlib`, `Seaborn`
 
 ### 3. Data Processing
 - **Format and Clean Data:** Convert all datasets to the same Coordinate Reference System (e.g., WGS 84).
