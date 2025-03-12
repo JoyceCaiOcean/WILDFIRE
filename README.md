@@ -100,7 +100,7 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 - Insights into evacuation strategies for future extreme events.
 
 ## Reference
-[1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)\n
+[1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)
 [2] https://www.nbclosangeles.com/weather-news/la-heat-wave-forecast/3502525/ 
 [3] https://www.usatoday.com/story/graphics/2025/01/11/santa-ana-winds-california-wildfires-explained/77592518007/
 [4] https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles#
