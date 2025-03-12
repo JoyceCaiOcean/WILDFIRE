@@ -50,7 +50,7 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 - **Geospatial Data Handling & Analysis:** `geopandas`, `shapely`, `rioxarray`
 - **Climate & Environmental Data Processing:** `pyproj`
 - **Data Science & Statistical Analysis:** `numpy`, `pandas`, `scipy`, `metpy`
-- **Visualization & Mapping:** `matplotlib`, `cartopy`, `Folium`, `plotly`, `contextily`
+- **Visualization & Mapping:** `matplotlib`, `cartopy`, `Folium`, `plotly`, `contextily`, `windrose`
 - **Remote Sensing & Fire Data:** `rasterio`, `SentinelHub`, `PyTorch`
 - **Air Quality & Environmental Analysis:** `pandas`, `numpy`, `SciPy`, `Matplotlib`, `Seaborn`
 
