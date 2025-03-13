@@ -23,7 +23,7 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 - **Sources:** Sentinel-2 NDVI, NDMI, MSI, EVI, SAVI, GCI and NBRI ([Accessed using Microsoft's Planetary Computer platform](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#overview))
 - **Key Data:**
   - Vegetation index, moisture index, burned ratio index
-  - 5 days temporal resolution for Sentinel-2A and 10m spatial resolution especially for NDVI analysis
+  - 5-days temporal resolution and 10m spatial resolution especially for NDVI analysis
 
 #### Socioeconomic Data (Vector)
 - **Sources:** [U.S. Census Bureau](https://www.census.gov/), [FEMA Social Vulnerability Index](https://hazards.fema.gov/nri/map)
@@ -42,9 +42,10 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
   - Los Angeles County administrative boundary shapefiles
 
 #### Air Quality Data
-- **Sources:** USEPA Environmental Quality Index (EQI)
+- **Sources:** [World Air Quality Index](https://aqicn.org/contact/) and [United States Environmental Protection Agency](https://www.epa.gov/aboutepa)
 - **Key Data:**
-  - Pre- and post-fire air quality measures
+  - Daily air pollutant concentrations including PM2.5, PM10, NO2, SO2, CO and O3
+  - Computation of Air Quality Index (AQI) based on concentrations of air pollutants
 
 ### 2. Python Packages to use
 - **Geospatial Data Handling & Analysis:** `geopandas`, `shapely`, `rioxarray`
