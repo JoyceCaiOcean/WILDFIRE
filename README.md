@@ -20,10 +20,10 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
   - Structure damage and destruction levels (DINS)
 
 #### Vegetation and Landcover Data (Raster)
-- **Sources:** [MODIS NDVI](https://modis.gsfc.nasa.gov/data/dataprod/mod13.php), Sentinel-2 NDVI, [NDVI Climate Data Record (CDR)](https://www.ncei.noaa.gov/products/climate-data-records/normalized-difference-vegetation-index)
+- **Sources:** Sentinel-2 NDVI, NDMI, MSI, EVI, SAVI, GCI and NBRI ([Accessed using Microsoft's Planetary Computer platform](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#overview))
 - **Key Data:**
-  - Vegetation density and classification
-  - Daily 0.05-degree NDVI for temporal analysis
+  - Vegetation index, moisture index, burned ratio index
+  - 5 days temporal resolution for Sentinel-2A and 10m spatial resolution especially for NDVI analysis
 
 #### Socioeconomic Data (Vector)
 - **Sources:** [U.S. Census Bureau](https://www.census.gov/), [FEMA Social Vulnerability Index](https://hazards.fema.gov/nri/map)
