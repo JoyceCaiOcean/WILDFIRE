@@ -99,6 +99,13 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 - High-quality maps and figures demonstrating key findings.
 - Insights into evacuation strategies for future extreme events.
 
+## Future Direction
+# Machine Learning and Interactive Maps
+• Develop predictive models to identify potential future wildfire hotspots based on historical data
+and environmental factors.
+• Create interactive maps and visualizations using libraries such as Folium and Plotly to present the
+findings in an accessible and informative manner.
+
 ## Reference
 - [1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)
 - [2] https://www.nbclosangeles.com/weather-news/la-heat-wave-forecast/3502525/ 
