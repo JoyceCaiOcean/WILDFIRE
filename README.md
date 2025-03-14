@@ -77,7 +77,7 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 #### Impact Assessment
 - Correlate fire damage with socioeconomic factors (income, housing type, vulnerability).
 - Identify spatial clusters of fire damage and compare them with demographic data.
-- Identify vegetation loss using NDVI, NDMI, MSI, EVI, SAVI, GCI and NBRI analyses.
+- Identify vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
 - Identify air quality index based on air pollutant concentrations.
 
 #### Environmental Contribution
@@ -88,7 +88,7 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 ### 2. Visualization
 
 #### Maps
-- Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI ), mositure index (NDMI, and MSI) , burned ratio index (NBRI) and socioeconomic data.
+- Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI), mositure index (NDMI and MSI), burned ratio index (NBRI) and socioeconomic data.
 
 #### Charts
 - **Time-series line plots:** Fire intensity, vegetation density indices, moisture indices and temperature variations over wildfire duration.
