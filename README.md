@@ -101,10 +101,8 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 
 ### Future Direction
 #### Machine Learning and Interactive Maps
-• Develop predictive models to identify potential future wildfire hotspots based on historical data
-and environmental factors.
-• Create interactive maps and visualizations using libraries such as Folium and Plotly to present the
-findings in an accessible and informative manner.
+- Develop predictive models to identify potential future wildfire hotspots based on historical data and environmental factors.
+- Create interactive maps and visualizations using libraries such as Folium and Plotly to present the findings in an accessible and informative manner.
 
 ## Reference
 - [1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)
