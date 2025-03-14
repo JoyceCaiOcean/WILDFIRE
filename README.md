@@ -58,7 +58,7 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 ### 3. Data Processing
 
 #### Format and Cleaning
-- Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG: 3310 - California Albers)
+- Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
 
 #### Spatial Analysis
 - Clip vegetation and climate raster data to the Palisades and Eaton fire perimeter.
