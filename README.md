@@ -48,12 +48,12 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
   - Computation of Air Quality Index (AQI) based on concentrations of air pollutants
 
 ### 2. Python Packages to use
-- **Geospatial Data Handling & Analysis:** `geopandas`, `shapely`, `rioxarray`
+- **Geospatial Data Handling & Analysis:** `geopandas`, `shapely`, `rioxarray`, `xarray`
 - **Climate & Environmental Data Processing:** `pyproj`
 - **Data Science & Statistical Analysis:** `numpy`, `pandas`, `scipy`, `metpy`
-- **Visualization & Mapping:** `matplotlib`, `cartopy`, `Folium`, `plotly`, `contextily`, `windrose`
-- **Remote Sensing & Fire Data:** `rasterio`, `SentinelHub`, `PyTorch`
-- **Air Quality & Environmental Analysis:** `pandas`, `numpy`, `SciPy`, `Matplotlib`, `Seaborn`
+- **Visualization & Mapping:** `matplotlib`, `matplotlib.dates`, `cartopy`, `seaborn`, `Folium`, `plotly`, `plotly.express`, `plotly.graph_objects`, `contextily`, `windrose`
+- **Remote Sensing & Fire Data:** `rasterio`, `odc.stac`, `pystac_client`, `planetary_computer`
+- **Air Quality & Environmental Analysis:** `ozon3`
 
 ### 3. Data Processing
 
@@ -62,12 +62,13 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 
 #### Spatial Analysis
 - Clip vegetation and climate raster data to the Palisades and Eaton fire perimeter.
+- Clip air pollutant concentrations data to the city of Los Angeles.
 - Intersect fire intensity/perimeters with census tracts to assess socioeconomic impact.
 - Analyze fire intensity and structure damage relative to census tracts.
 
 #### Temporal Aggregation
 - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
-- Aggregate temperature and NDVI data over wildfire duration for analysis.
+- Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis.
 
 ## Analysis
 
@@ -76,6 +77,8 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 #### Impact Assessment
 - Correlate fire damage with socioeconomic factors (income, housing type, vulnerability).
 - Identify spatial clusters of fire damage and compare them with demographic data.
+- Identify vegetation loss using NDVI, NDMI, MSI, EVI, SAVI, GCI and NBRI analyses.
+- Identify air quality index based on air pollutant concentrations.
 
 #### Environmental Contribution
 - Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
@@ -85,15 +88,11 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 ### 2. Visualization
 
 #### Maps
-- Thematic maps displaying fire perimeters, vegetation density (NDVI), and socioeconomic data.
+- Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI ), mositure index (NDMI, and MSI) , burned ratio index (NBRI) and socioeconomic data.
 
 #### Charts
-- **Time-series line plots:** Fire intensity, NDVI, and temperature variations over wildfire duration.
+- **Time-series line plots:** Fire intensity, vegetation density indices, moisture indices and temperature variations over wildfire duration.
 - **Scatter plots:** Correlations between fire damage, socioeconomic factors, and environmental conditions.
-
-## Machine Learning and Interactive Maps (if time permits)
-- Develop predictive models to identify potential future wildfire hotspots based on historical data and environmental factors.
-- Create interactive maps and visualizations using libraries such as Folium and Plotly to present the findings in an accessible and informative manner.
 
 ## Expected Deliverables
 - A clear analysis showing the relationship between wildfire impacts and socioeconomic variables.
