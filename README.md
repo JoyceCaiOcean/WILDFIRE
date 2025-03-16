@@ -2,7 +2,7 @@
 Team member: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor
 
 ## Research Question
-How did the 2025 Palisades and Eaton wildfires in Los Angeles County impact various socioeconomic communities, and what were the primary factors contributing to the extent of the damage?
+What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?
 
 ## Introduction
 Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. In 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aims to analyze the impact of these wildfires on various communities, examining key factors such as vegetation density, wind patterns, and economic vulnerability. By integrating geospatial data and socioeconomic indicators, we seek to understand the relationship between wildfire damage and community resilience, providing insights for future mitigation strategies.
