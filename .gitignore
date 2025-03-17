@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# for Cai_Folder data
+Cai_Folder/DINS/
+Cai_Folder/filt_study_area.geojson
+Cai_Folder/LA_air.nc
