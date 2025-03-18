@@ -92,5 +92,4 @@ We sought to answer the questions:
 - [2] https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles#
 - [3] https://www.nbclosangeles.com/weather-news/la-heat-wave-forecast/3502525/ 
 - [4] https://www.usatoday.com/story/graphics/2025/01/11/santa-ana-winds-california-wildfires-explained/77592518007/
-- [5] https://abc7.com/post/la-fires-aftermath-look-recovery-process-2-months-eaton-palisades/15988311/
-- [6] https://www.weather.gov/pqr/wind
+- [5] https://www.weather.gov/pqr/wind
