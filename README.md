@@ -37,7 +37,7 @@ We sought to answer the question:
 - **Key Data:**
   - Daily air pollutant concentrations including PM2.5, PM10, NO2, SO2, CO and O3; Computation of Air Quality Index (AQI) based on concentrations of air pollutants
 
-### 2. Python Packages Used 
+### Python Packages Used 
 - **Geospatial Data Handling & Analysis:** `geopandas`, `shapely`, `rioxarray`, `xarray`
 - **Climate & Environmental Data Processing:** `pyproj`
 - **Data Science & Statistical Analysis:** `numpy`, `pandas`, `scipy`, `metpy`
