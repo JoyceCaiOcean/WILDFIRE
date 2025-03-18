@@ -81,8 +81,8 @@ We sought to answer the questions:
 ...
 {Insert structure of repo here}
 
+## Future Directions  
 
-### Future Directions 
 #### Machine Learning and Interactive Maps
 - Develop predictive models to identify potential future wildfire hotspots based on historical data and environmental factors.
 - Create interactive maps and visualizations using libraries such as Folium and Plotly to present the findings in an accessible and informative manner.
