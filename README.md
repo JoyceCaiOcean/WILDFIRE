@@ -4,7 +4,7 @@ Team members: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor
 ## Summary 
 Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. 
 In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aimed to analyze the environmental & atmospheric conditions that contributed to its spread such as temperature, precipitation, wind speeds, vegetation density, and investigate the impact on various demographics. By integrating data on fire radiative power, climate reanalysis, land use & land cover, air quality and socioeconomic indicators, we seek to understand the relationship between atmospheric conditions, air quality, social vulnerability and wildfire damage, providing insights for future mitigation strategies. 
-We sought to answer the question: 
+We sought to answer the questions: 
 * What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?
 * How can these insights prevent future widespread destruction by wildfires? 
 
