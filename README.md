@@ -66,7 +66,13 @@ We sought to answer the question:
   - Overlay wind direction and temperature data to identify conditions that influenced fire spread.
   - Assess pre- and post-fire changes in vegetation, air quality, and land use. 
 
-### 2. Visualization
+## Findings / Results 
+
+...
+
+## Project File Structure 
+
+...
 
 #### Maps
 - Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI), mositure index (NDMI and MSI), burned ratio index (NBRI) and socioeconomic data.
