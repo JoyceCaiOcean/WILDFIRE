@@ -10,8 +10,6 @@ We sought to answer the question:
 
 ## Datasets
 
-### 1. Data Collection
-
 #### Fire Incident Data (Vector)
 - **Sources:** [CAL FIRE](https://www.fire.ca.gov/), [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/)
 - **Key Data:**
