@@ -8,8 +8,7 @@ We sought to answer the question:
 * What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?
 * How can these insights prevent future widespread destruction by wildfires? 
 
-
-## Dataset
+## Datasets
 
 ### 1. Data Collection
 
@@ -28,18 +27,15 @@ We sought to answer the question:
 
 #### Socioeconomic Data (Vector)
 - **Sources:** [Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/index.html), [FEMA Social Vulnerability Index](https://hazards.fema.gov/nri/map)
-- **Key Data:**
-  - Social Vulnerability, Population Disability, Age, Housing type, Population density, Census tract-level demographics 
+- **Key Data:** Social Vulnerability, Population Disability, Age, Housing type, Population density, Census tract-level demographics 
 
 #### Climate & Land Cover Data (Raster)
 - **Sources:** [ERA5 Land Hourly Reanalysis Data] (https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview), [ESA World Cover](https://worldcover2021.esa.int/) 
-- **Key Data:**
-  - Temperature, precipitation, humidity, wind speed & direction 
+- **Key Data:** Temperature, precipitation, humidity, wind speed & direction 
 
 #### Geospatial Boundaries (Vector)
 - **Sources:** [La Census Tract Shapefiles](https://redistricting.lacounty.gov/mapping-files-data-download/), [USGS](https://www.usgs.gov/)
-- **Key Data:**
-  - Los Angeles County administrative boundary shapefiles
+- **Key Data:** Los Angeles County administrative boundary shapefiles
 
 #### Air Quality Data
 - **Sources:** [World Air Quality Index](https://aqicn.org/contact/) and [United States Environmental Protection Agency](https://www.epa.gov/aboutepa)
@@ -55,35 +51,26 @@ We sought to answer the question:
 - **Remote Sensing & Fire Data:** `rasterio`, `odc.stac`, `pystac_client`, `planetary_computer`
 - **Air Quality & Environmental Analysis:** `ozon3`
 
-### 3. Data Processing
+## Methodology 
 
-#### Format and Cleaning
-- Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
-
-#### Spatial Analysis
-- Clip vegetation and climate raster data to the Palisades and Eaton fire perimeter.
-- Clip air pollutant concentrations data to the city of Los Angeles.
-- Intersect fire intensity/perimeters with census tracts to assess socioeconomic impact.
-- Analyze fire intensity and structure damage relative to census tracts.
-
-#### Temporal Aggregation
-- Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
-- Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis.
-
-## Analysis
-
-### 1. Methodology
-
-#### Impact Assessment
-- Correlate fire damage with socioeconomic factors (income, housing type, vulnerability).
-- Identify spatial clusters of fire damage and compare them with demographic data.
-- Identify vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
-- Identify air quality index based on air pollutant concentrations.
-
-#### Environmental Contribution
-- Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
-- Overlay wind direction and temperature data to identify conditions that influenced fire spread.
-- Assess pre- and post-fire changes in vegetation, air quality, and land use.
+- Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
+- Geospatial Analysis:
+- - Clipped vegetation and climate raster data to the Palisades and Eaton fire perimeter.
+- - Clipped air pollutant concentrations data to the city of Los Angeles.
+- - Intersected fire intensity/perimeters with census tracts to assess socioeconomic impact.
+- - Analyzed fire intensity and structure damage relative to census tracts.
+- Temporal Aggregation
+- - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
+- - Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis. 
+- Analysis
+- - Correlated fire damage with socioeconomic factors (income, housing type, vulnerability).
+  - Identified spatial clusters of fire damage and compare them with demographic data.
+  - Identified vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
+  - Identify air quality index based on air pollutant concentrations. 
+- Environmental Contribution
+- - Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
+  - Overlay wind direction and temperature data to identify conditions that influenced fire spread.
+  - Assess pre- and post-fire changes in vegetation, air quality, and land use. 
 
 ### 2. Visualization
 
