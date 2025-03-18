@@ -28,7 +28,7 @@ We sought to answer the question:
 - **Key Data:** Social Vulnerability, Population Disability, Age, Housing type, Population density, Census tract-level demographics 
 
 #### Climate & Land Cover Data (Raster)
-- **Sources:** [ERA5 Land Hourly Reanalysis Data] (https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview), [ESA World Cover](https://worldcover2021.esa.int/) 
+- **Sources:** [ERA5 Land Hourly Reanalysis Data](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview), [ESA World Cover](https://worldcover2021.esa.int/) 
 - **Key Data:** Temperature, precipitation, humidity, wind speed & direction 
 
 #### Geospatial Boundaries (Vector)
