@@ -1,11 +1,11 @@
 # WILDFIRE - Wildfire Impacts on Local Dynamics: Forests, Income, Residents, and Environment
-Team member: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor
+Team members: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor 
 
-## Research Question
-What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?
-
-## Introduction
-Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. In 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aims to analyze the impact of these wildfires on various communities, examining key factors such as vegetation density, wind patterns, and economic vulnerability. By integrating geospatial data and socioeconomic indicators, we seek to understand the relationship between wildfire damage and community resilience, providing insights for future mitigation strategies.
+## Summary 
+Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. 
+In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aimed to analyze the environmental & atmospheric conditions that contributed to its spread such as temperature, precipitation, wind speeds, vegetation density, and investigate the impact on various demographics. By integrating data on fire radiative power, climate reanalysis, land use & land cover, air quality and socioeconomic indicators, we seek to understand the relationship between atmospheric conditions, air quality, social vulnerability and wildfire damage, providing insights for future mitigation strategies. 
+We sought to answer the question: 
+* What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities? 
 
 
 ## Dataset
@@ -106,8 +106,8 @@ Wildfires are increasingly frequent and severe due to climate change and land-us
 
 ## Reference
 - [1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)
-- [2] https://www.nbclosangeles.com/weather-news/la-heat-wave-forecast/3502525/ 
-- [3] https://www.usatoday.com/story/graphics/2025/01/11/santa-ana-winds-california-wildfires-explained/77592518007/
-- [4] https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles#
+- [2] https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles#
+- [3] https://www.nbclosangeles.com/weather-news/la-heat-wave-forecast/3502525/ 
+- [4] https://www.usatoday.com/story/graphics/2025/01/11/santa-ana-winds-california-wildfires-explained/77592518007/
 - [5] https://abc7.com/post/la-fires-aftermath-look-recovery-process-2-months-eaton-palisades/15988311/
 - [6] https://www.weather.gov/pqr/wind
