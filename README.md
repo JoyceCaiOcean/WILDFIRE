@@ -56,19 +56,19 @@ We sought to answer the question:
 - Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
 - Geospatial Analysis:
 - - Clipped vegetation and climate raster data to the Palisades and Eaton fire perimeter.
-- - Clipped air pollutant concentrations data to the city of Los Angeles.
-- - Intersected fire intensity/perimeters with census tracts to assess socioeconomic impact.
-- - Analyzed fire intensity and structure damage relative to census tracts.
+  - Clipped air pollutant concentrations data to the city of Los Angeles.
+  - Intersected fire intensity/perimeters with census tracts to assess socioeconomic impact.
+  - Analyzed fire intensity and structure damage relative to census tracts.
 - Temporal Aggregation
-- - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
-- - Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis. 
+  - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
+  - Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis. 
 - Analysis
 - - Correlated fire damage with socioeconomic factors (income, housing type, vulnerability).
   - Identified spatial clusters of fire damage and compare them with demographic data.
   - Identified vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
   - Identify air quality index based on air pollutant concentrations. 
 - Environmental Contribution
-- - Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
+  - Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
   - Overlay wind direction and temperature data to identify conditions that influenced fire spread.
   - Assess pre- and post-fire changes in vegetation, air quality, and land use. 
 
