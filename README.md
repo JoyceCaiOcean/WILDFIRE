@@ -69,22 +69,18 @@ We sought to answer the question:
 ## Findings / Results 
 
 ...
+{Insert relevant figures here}
+- maps and figures demonstrating key findings
+- analysis showing the relationship between wildfire impacts and socioeconomic variables
+- **Time-series line plots:** Fire intensity, vegetation density indices, moisture indices and temperature variations over wildfire duration.
+- **Scatter plots:** Correlations between fire damage, socioeconomic factors, and environmental conditions.
+- Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI), mositure index (NDMI and MSI), burned ratio index (NBRI) and socioeconomic data.
 
 ## Project File Structure 
 
 ...
+{Insert structure of repo here}
 
-#### Maps
-- Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI), mositure index (NDMI and MSI), burned ratio index (NBRI) and socioeconomic data.
-
-#### Charts
-- **Time-series line plots:** Fire intensity, vegetation density indices, moisture indices and temperature variations over wildfire duration.
-- **Scatter plots:** Correlations between fire damage, socioeconomic factors, and environmental conditions.
-
-## Expected Deliverables
-- A clear analysis showing the relationship between wildfire impacts and socioeconomic variables.
-- High-quality maps and figures demonstrating key findings.
-- Insights into evacuation strategies for future extreme events.
 
 ### Future Directions 
 #### Machine Learning and Interactive Maps
