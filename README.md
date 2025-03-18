@@ -5,7 +5,8 @@ Team members: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor
 Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. 
 In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aimed to analyze the environmental & atmospheric conditions that contributed to its spread such as temperature, precipitation, wind speeds, vegetation density, and investigate the impact on various demographics. By integrating data on fire radiative power, climate reanalysis, land use & land cover, air quality and socioeconomic indicators, we seek to understand the relationship between atmospheric conditions, air quality, social vulnerability and wildfire damage, providing insights for future mitigation strategies. 
 We sought to answer the question: 
-* What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities? 
+* What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?
+* How can these insights prevent future widespread destruction by wildfires? 
 
 
 ## Dataset
@@ -19,25 +20,24 @@ We sought to answer the question:
   - Fire progression data (FRP - Fire Radiative Power)
   - Structure damage and destruction levels (DINS)
 
-#### Vegetation and Landcover Data (Raster)
+#### Vegetation Data (Raster)
 - **Sources:** Sentinel-2 NDVI, NDMI, MSI, EVI, SAVI, GCI and NBRI ([Accessed using Microsoft's Planetary Computer platform](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#overview))
 - **Key Data:**
   - Vegetation index, moisture index, burned ratio index
   - 5-days temporal resolution and 10m spatial resolution especially for NDVI analysis
 
 #### Socioeconomic Data (Vector)
-- **Sources:** [U.S. Census Bureau](https://www.census.gov/), [FEMA Social Vulnerability Index](https://hazards.fema.gov/nri/map)
+- **Sources:** [Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/index.html), [FEMA Social Vulnerability Index](https://hazards.fema.gov/nri/map)
 - **Key Data:**
-  - Census tract-level demographics
-  - Social vulnerability, income, housing type, population density
+  - Social Vulnerability, Population Disability, Age, Housing type, Population density, Census tract-level demographics 
 
-#### Climate Data (Raster)
-- **Sources:** ERA5 Reanalysis Data
+#### Climate & Land Cover Data (Raster)
+- **Sources:** [ERA5 Land Hourly Reanalysis Data] (https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview), [ESA World Cover](https://worldcover2021.esa.int/) 
 - **Key Data:**
-  - Temperature, wind speed, and wind patterns during fire events
+  - Temperature, precipitation, humidity, wind speed & direction 
 
 #### Geospatial Boundaries (Vector)
-- **Sources:** [USGS](https://www.usgs.gov/)
+- **Sources:** [La Census Tract Shapefiles](https://redistricting.lacounty.gov/mapping-files-data-download/), [USGS](https://www.usgs.gov/)
 - **Key Data:**
   - Los Angeles County administrative boundary shapefiles
 
@@ -47,7 +47,7 @@ We sought to answer the question:
   - Daily air pollutant concentrations including PM2.5, PM10, NO2, SO2, CO and O3
   - Computation of Air Quality Index (AQI) based on concentrations of air pollutants
 
-### 2. Python Packages to use
+### 2. Python Packages Used 
 - **Geospatial Data Handling & Analysis:** `geopandas`, `shapely`, `rioxarray`, `xarray`
 - **Climate & Environmental Data Processing:** `pyproj`
 - **Data Science & Statistical Analysis:** `numpy`, `pandas`, `scipy`, `metpy`
