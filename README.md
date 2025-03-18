@@ -53,7 +53,7 @@ We sought to answer the question:
 
 - Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
 - Geospatial Analysis:
-- - Clipped vegetation and climate raster data to the Palisades and Eaton fire perimeter.
+  - Clipped vegetation and climate raster data to the Palisades and Eaton fire perimeter.
   - Clipped air pollutant concentrations data to the city of Los Angeles.
   - Intersected fire intensity/perimeters with census tracts to assess socioeconomic impact.
   - Analyzed fire intensity and structure damage relative to census tracts.
@@ -61,7 +61,7 @@ We sought to answer the question:
   - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
   - Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis. 
 - Analysis
-- - Correlated fire damage with socioeconomic factors (income, housing type, vulnerability).
+  - Correlated fire damage with socioeconomic factors (income, housing type, vulnerability).
   - Identified spatial clusters of fire damage and compare them with demographic data.
   - Identified vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
   - Identify air quality index based on air pollutant concentrations. 
@@ -84,12 +84,12 @@ We sought to answer the question:
 - High-quality maps and figures demonstrating key findings.
 - Insights into evacuation strategies for future extreme events.
 
-### Future Direction
+### Future Directions 
 #### Machine Learning and Interactive Maps
 - Develop predictive models to identify potential future wildfire hotspots based on historical data and environmental factors.
 - Create interactive maps and visualizations using libraries such as Folium and Plotly to present the findings in an accessible and informative manner.
 
-## Reference
+## References 
 - [1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)
 - [2] https://www.climate.gov/news-features/event-tracker/weather-and-climate-influences-january-2025-fires-around-los-angeles#
 - [3] https://www.nbclosangeles.com/weather-news/la-heat-wave-forecast/3502525/ 
