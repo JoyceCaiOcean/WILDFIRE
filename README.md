@@ -10,8 +10,7 @@ We sought to answer the questions:
 
 ## Datasets
 
-##### Geospatial Boundaries (Vector):
-Los Angeles County administrative boundary shapefiles. Source: [La Census Tract Shapefiles](https://redistricting.lacounty.gov/mapping-files-data-download/)  
+* Geospatial Boundaries (Vector): Los Angeles County administrative boundary shapefiles. Source: [La Census Tract Shapefiles](https://redistricting.lacounty.gov/mapping-files-data-download/)  
 
 #### Fire Incident Data (Vector)
 - **Sources:** [CAL FIRE](https://www.fire.ca.gov/), [NASA FIRMS](https://firms.modaps.eosdis.nasa.gov/)
