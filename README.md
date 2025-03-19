@@ -1,7 +1,7 @@
 # WILDFIRE - Wildfire Impacts on Local Dynamics: Forests, Income, Residents, and Environment
 Team members: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor 
 
-## Summary 
+## Summary (JC: Introduction? We can do 'Abstract' additionally in the top if you like)
 Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. 
 In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aimed to analyze the environmental & atmospheric conditions that contributed to its spread such as temperature, precipitation, wind speeds, vegetation density, and investigate the impact on various demographics. By integrating data on fire radiative power, climate reanalysis, land use & land cover, air quality and socioeconomic indicators, we seek to understand the relationship between atmospheric conditions, air quality, social vulnerability and wildfire damage, providing insights for future mitigation strategies. 
 We sought to answer the questions: 
@@ -45,7 +45,7 @@ We sought to answer the questions:
 - **Remote Sensing & Fire Data:** `rasterio`, `odc.stac`, `pystac_client`, `planetary_computer`
 - **Air Quality & Environmental Analysis:** `ozon3`
 
-## Methodology 
+## Methodology (JC: A bit messy now, thinking subsetting for each dataset, and we can write our own part)
 
 - Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
 - Geospatial Analysis:
@@ -72,9 +72,6 @@ We sought to answer the questions:
 {Insert relevant figures here}
 - maps and figures demonstrating key findings
 - analysis showing the relationship between wildfire impacts and socioeconomic variables
-- **Time-series line plots:** Fire intensity, vegetation density indices, moisture indices and temperature variations over wildfire duration.
-- **Scatter plots:** Correlations between fire damage, socioeconomic factors, and environmental conditions.
-- Thematic maps displaying fire perimeters, vegetation density (NDVI, EVI, SAVI, GCI), mositure index (NDMI and MSI), burned ratio index (NBRI) and socioeconomic data.
 
 ## Project File Structure 
 
