@@ -15,7 +15,7 @@ We sought to answer the questions:
 * **Vegetation Data (Raster):** Vegetation index, moisture index, burned ratio index, 5-days temporal resolution and 10m spatial resolution especially for NDVI analysis. Sources: Sentinel-2 NDVI, NDMI, MSI, EVI, SAVI, GCI and NBRI ([Accessed using Microsoft's Planetary Computer platform](https://planetarycomputer.microsoft.com/dataset/sentinel-2-l2a#overview)).
 * **Socioeconomic Data (Vector):** Social Vulnerability, Census tract-level demographics. Sources: [Social Vulnerability Index](https://www.atsdr.cdc.gov/place-health/php/svi/index.html)
 * **Climate & Land Cover Data (Raster):** Temperature, Precipitation, Humidity, Wind speed & direction. Sources: [ERA5 Land Hourly Reanalysis Data](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview), [ESA World Cover](https://worldcover2021.esa.int/) 
-* **Air Quality Data:** Daily air pollutant concentrations including PM2.5, PM10, NO2, SO2, CO and O3; Computation of Air Quality Index (AQI) based on concentrations of air pollutants. Sources: [World Air Quality Index](https://aqicn.org/contact/) and [United States Environmental Protection Agency](https://www.epa.gov/aboutepa) 
+* **Air Quality Data (Tabular):** Daily air pollutant concentrations including PM2.5, PM10, NO2, SO2, CO and O3; Computation of Air Quality Index (AQI) based on concentrations of air pollutants. Sources: [World Air Quality Index](https://aqicn.org/contact/) and [United States Environmental Protection Agency](https://www.epa.gov/aboutepa) 
 
 
 ### Python Packages Used 
@@ -26,28 +26,27 @@ We sought to answer the questions:
 - **Remote Sensing & Fire Data:** `rasterio`, `odc.stac`, `pystac_client`, `planetary_computer`
 - **Air Quality & Environmental Analysis:** `ozon3`
 
-## Methodology (JC: A bit messy now, thinking subsetting for each dataset, and we can write our own part)
-
+## Methodology
 - Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
 - Geospatial Analysis:
   - Clipped vegetation and climate raster data to the Palisades and Eaton fire perimeter.
   - Clipped air pollutant concentrations data to the city of Los Angeles.
   - Intersected fire intensity/perimeters with census tracts to assess socioeconomic impact.
   - Analyzed fire intensity and structure damage relative to census tracts.
-- Temporal Aggregation
+- Temporal Aggregation:
   - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
-  - Aggregate temperature, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis. 
-- Analysis
+  - Aggregate temperature, wind, precipitation, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis.
+  - Aggregate temperature, wind, precipitation over the past year to understand the long-term effect of environemnt. 
+- Analysis:
+  - Correlated fire intensity with short-term and long-term environment conditions to identify conditions that influenced fire spread.
   - Correlated fire damage with socioeconomic factors (income, housing type, vulnerability).
-  - Identified spatial clusters of fire damage and compare them with demographic data.
   - Identified vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
   - Identify air quality index based on air pollutant concentrations. 
-- Environmental Contribution
-  - Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
-  - Overlay wind direction and temperature data to identify conditions that influenced fire spread.
   - Assess pre- and post-fire changes in vegetation, air quality, and land use.
 
 *** 
+- Fire Intensity Analysis
+  - merge five satellite data and resample them in a daily basics.
 
 - Land Use Land Cover (LULC) Analysis
   - Overlay fire perimeter on LULC plot of Study Area and compute the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.  
@@ -62,8 +61,7 @@ We sought to answer the questions:
 
 ...
 {Insert relevant figures here}
-- maps and figures demonstrating key findings
-- analysis showing the relationship between wildfire impacts and socioeconomic variables
+- figures demonstrating key findings
 
 ## Project File Structure 
 
