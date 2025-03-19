@@ -46,12 +46,15 @@ We sought to answer the questions:
   - Analyze relationships between vegetation density, NDVI anomalies, and fire perimeters.
   - Overlay wind direction and temperature data to identify conditions that influenced fire spread.
   - Assess pre- and post-fire changes in vegetation, air quality, and land use.
+
+*** 
+
 - Weather Variable Analysis
   - Investigate short & long-term (one-year) trends of weather variables in dataset (Temperature, Wind, Precipitation) and the calculated ones (Specific Humidity).
-  - Calculate statistics on weather variables before and during the fire.
+  - Calculate statistics on weather variables before and during the fire such as Wind Speeds & Direction. 
 - Socioeconomic Analysis
-  - Overlay fire perimeter on demographics plots such as Social Vulnerability Index, Aged Population, Young Population, etc 
-  - Calculate relevant statistics including populations affected per census tract 
+  - Overlay fire perimeter on demographics plots such as Social Vulnerability Index, Aged Population, Young Population, etc. 
+  - Calculate relevant statistics including populations affected per census tract. 
 
 ## Findings / Results 
 
