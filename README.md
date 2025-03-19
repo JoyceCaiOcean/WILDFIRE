@@ -65,8 +65,8 @@ We sought to answer the questions:
 
 ## Project File Structure 
 
-...
-{Insert structure of repo here}
+* The various analyses were conducted in separate folders & notebooks and these can be identified from their names.
+* For example, Land Use Land Cover and Weather (ERA5 Analysis) is done in Land_Use_Land_Cover_ERA5_Land.ipynb in the LULC_ERA5_Land folder. 
 
 ## Future Directions  
 
