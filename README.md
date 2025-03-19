@@ -49,6 +49,8 @@ We sought to answer the questions:
 
 *** 
 
+- Land Use Land Cover (LULC) Analysis
+  - Overlay fire perimeter on LULC plot of Study Area and compute the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.  
 - Weather Variable Analysis
   - Investigate short & long-term (one-year) trends of weather variables in dataset (Temperature, Wind, Precipitation) and the calculated ones (Specific Humidity).
   - Calculate statistics on weather variables before and during the fire such as Wind Speeds & Direction. 
@@ -66,7 +68,7 @@ We sought to answer the questions:
 ## Project File Structure 
 
 * The various analyses were conducted in separate folders & notebooks and these can be identified from their names.
-* For example, Land Use Land Cover and Weather (ERA5 Analysis) is done in *Land_Use_Land_Cover_ERA5_Land.ipynb* in the *LULC_ERA5_Land folder.* 
+* For example, Land Use Land Cover and ERA5 (Weather) Analysis is done in *Land_Use_Land_Cover_ERA5_Land.ipynb* in the 'LULC_ERA5_Land' folder. 
 
 ## Future Directions  
 
