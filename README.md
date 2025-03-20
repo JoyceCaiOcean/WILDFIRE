@@ -85,20 +85,20 @@ This study analyzes the environmental and atmospheric conditions that influenced
 *Figure 3: Eaton fire spread, colored by fire radiative power density.*
 
 
-#### <span style="color:red;">**RESULT #1**</span>: The wildfire was driven by **strong NE winds** and fueled by the **past wet winters & dry** conditions.
+### <span style="color:red;">**RESULT #1**</span>: The wildfire was driven by **strong NE winds** and fueled by the **past wet winters & dry** conditions.
 ..{insert figure}
 
-#### <span style="color:red;">**RESULT #2**</span>: The **impact** of the fire on **structure damage**: 64% (Palisades) & 51% (Eaton) of houses were destroyed.
+### <span style="color:red;">**RESULT #2**</span>: The **impact** of the fire on **structure damage**: 64% (Palisades) & 51% (Eaton) of houses were destroyed.
 ![Fire_Structure_Damage](images/Fire_Structure.png)
 *Figure X: Wildfire impact on structure damage in Palisades and Eaton.*
 
-#### <span style="color:red;">**RESULT #3**</span>: The **impact** of the fire on **vegetation:** ~ 100% of Palisades and Eaton have no regrowth potential.
+### <span style="color:red;">**RESULT #3**</span>: The **impact** of the fire on **vegetation:** ~ 100% of Palisades and Eaton have no regrowth potential.
 ..{insert figure}
 
-#### <span style="color:red;">**RESULT #4**</span>: The **impact** of the fire on **air quality:** very unhealthy AQI (high PM2.5 concentrations). 
+### <span style="color:red;">**RESULT #4**</span>: The **impact** of the fire on **air quality:** very unhealthy AQI (high PM2.5 concentrations). 
 ..{insert figure}
 
-#### <span style="color:red;">**RESULT #5**</span>: The **impact** of the fire on **socio-economics:** majority of high-income & aged people affected. 
+### <span style="color:red;">**RESULT #5**</span>: The **impact** of the fire on **socio-economics:** majority of high-income & aged people affected. 
 ..{insert figure}
 
 ## Project File Structure 
