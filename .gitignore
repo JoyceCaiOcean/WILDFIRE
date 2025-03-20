@@ -172,9 +172,9 @@ cython_debug/
 
 
 # for Cai_Folder data
-Cai_Folder/DINS/
-Cai_Folder/filt_study_area.geojson
-Cai_Folder/LA_air.nc
-Cai_Folder/ERA5/
-Cai_Folder/plots/
-Cai_Folder/Total_FRP/
+Fire_Incident_Analysis/DINS/
+Fire_Incident_Analysis/filt_study_area.geojson
+Fire_Incident_Analysisr/LA_air.nc
+Fire_Incident_Analysis/ERA5/
+Fire_Incident_Analysis/plots/
+Fire_Incident_Analysis/Total_FRP/
