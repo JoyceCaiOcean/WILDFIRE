@@ -14,8 +14,8 @@ In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County cau
 This study analyzes the environmental and atmospheric conditions that influenced wildfire spread—including temperature, precipitation, wind speeds, and vegetation density—and examines their impact on air quality and vulnerable communities. By integrating data on fire radiative power, climate reanalysis, land use and land cover, air quality, and socioeconomic indicators, we aim to uncover the relationships between atmospheric conditions, social vulnerability, and wildfire damage. These insights can inform future mitigation strategies to reduce wildfire risks.  
 
 ### Research Questions  
-- What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?  
-- How can these insights help prevent future large-scale wildfire destruction?  
+- What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires?
+- How did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities? 
 
 {A figure for the intro...}
 
