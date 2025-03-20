@@ -7,15 +7,15 @@ Wildfires are becoming increasingly severe due to climate change and land-use pa
 
 ### Key Findings:  
 
-- **<u>Fire Behavior & Environmental Drivers:** The wildfire spread was **driven primarily by strong northeast winds**. **Dry vegetation**, fueled by **past wet winters**, contributed to rapid fire growth.  
+- **<u>Fire Behavior & Environmental Drivers</u>:** The wildfire spread was **driven primarily by strong northeast winds**. **Dry vegetation**, fueled by **past wet winters**, contributed to rapid fire growth.  
 
-- **Fire Intensity & Structure Damage:** Fire Radiative Power (FRP) analysis showed significant fire intensity over time. **64% of homes in Palisades** and **51% in Eaton** were **destroyed**. Structural damage was **disproportionately higher** in census tracts with **high-income and elderly populations**.  
+- **<u>Fire Intensity & Structure Damage</u>:** Fire Radiative Power (FRP) analysis showed significant fire intensity over time. **64% of homes in Palisades** and **51% in Eaton** were **destroyed**. Structural damage was **disproportionately higher** in census tracts with **high-income and elderly populations**.  
 
-- **Air Quality Impact:** The wildfire caused a **sharp increase in PM2.5 concentrations**, leading to **hazardous air quality conditions**.  
+- **<u>Air Quality Impact</u>:** The wildfire caused a **sharp increase in PM2.5 concentrations**, leading to **hazardous air quality conditions**.  
 
-- **Vegetation Loss & Recovery Potential:** **Nearly 100% of burned regions had no regrowth potential**, based on **Normalized Burn Ratio Index (NBRI)** analysis.  
+- **<u>Vegetation Loss & Recovery Potential</u>:** **Nearly 100% of burned regions had no regrowth potential**, based on **Normalized Burn Ratio Index (NBRI)** analysis.  
 
-- **Broader Implications:**  Wildfire intensity, **atmospheric conditions, air pollution, and social vulnerability** are closely linked. Findings highlight the need for **improved wildfire forecasting models** and **targeted community resilience planning** to mitigate future risks.  
+- **<u>Broader Implications</u>:**  Wildfire intensity, **atmospheric conditions, air pollution, and social vulnerability** are closely linked. Findings highlight the need for **improved wildfire forecasting models** and **targeted community resilience planning** to mitigate future risks.  
 
 ## Introduction
 
