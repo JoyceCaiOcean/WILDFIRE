@@ -1,12 +1,23 @@
 # WILDFIRE - Wildfire Impacts on Local Dynamics: Forests, Income, Residents, and Environment
 Team members: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor 
 
-## Summary (JC: Introduction? We can do 'Abstract' additionally in the top if you like)
-Wildfires are increasingly frequent and severe due to climate change and land-use patterns, posing significant threats to both the environment and human communities. 
-In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups. This study aimed to analyze the environmental & atmospheric conditions that contributed to its spread such as temperature, precipitation, wind speeds, vegetation density, and investigate the impact on various demographics. By integrating data on fire radiative power, climate reanalysis, land use & land cover, air quality and socioeconomic indicators, we seek to understand the relationship between atmospheric conditions, air quality, social vulnerability and wildfire damage, providing insights for future mitigation strategies. 
-We sought to answer the questions: 
-* What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires in Los Angeles County, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?
-* How can these insights prevent future widespread destruction by wildfires? 
+## Abstract
+
+
+
+
+## Introduction
+
+Wildfires are becoming more frequent and intense due to climate change and land-use patterns, posing serious risks to both ecosystems and human communities.  
+In January 2025, the **Palisades and Eaton wildfires** in Los Angeles County caused widespread destruction, disproportionately affecting different socioeconomic groups.  
+
+This study analyzes the environmental and atmospheric conditions that influenced wildfire spread—including temperature, precipitation, wind speeds, and vegetation density—and examines their impact on air quality and vulnerable communities. By integrating data on fire radiative power, climate reanalysis, land use and land cover, air quality, and socioeconomic indicators, we aim to uncover the relationships between atmospheric conditions, social vulnerability, and wildfire damage. These insights can inform future mitigation strategies to reduce wildfire risks.  
+
+### Research Questions  
+- What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires, and how did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities?  
+- How can these insights help prevent future large-scale wildfire destruction?  
+
+{A figure for the intro...}
 
 ## Datasets
 
