@@ -46,8 +46,13 @@ We sought to answer the questions:
 
 *** 
 - Fire Intensity Analysis
-  - merge five satellite data and resample them in a daily basics.
-
+  - Integrated fire radiative power (FRP) data from five satellite sources and resampled them to a daily scale for each region.  
+  - Computed fire intensity based on pixel size to analyze fire spread and derived the time series of total daily radiative power.  
+  - Generated a correlation heatmap to assess relationships between fire radiative power, temperature, wind speed, precipitation, and humidity, identifying key driving factors.  
+  - Analyzed the correlation between fire radiative power and air pollutant concentrations (PM2.5 and PM10) to evaluate the fire’s impact on air quality.  
+- Fire Structure Analysis
+  - Assessed the distribution of structural damage across different damage levels.  
+  - Examined damage patterns within census tracts to identify spatial variations in fire impact.  
 - Land Use Land Cover (LULC) Analysis
   - Overlay fire perimeter on LULC plot of Study Area and compute the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.  
 - Weather Variable Analysis
