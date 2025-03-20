@@ -106,11 +106,20 @@ This study analyzes the environmental and atmospheric conditions that influenced
 * The various analyses were conducted in separate folders & notebooks and these can be identified from their names.
 * For example, Land Use Land Cover and ERA5 (Weather) Analysis is done in *Land_Use_Land_Cover_ERA5_Land.ipynb* in the 'LULC_ERA5_Land' folder. 
 
-## Future Directions  
+## Limitations and Future Directions  
 
-#### Machine Learning and Interactive Maps
-- Develop predictive models to identify potential future wildfire hotspots based on historical data and environmental factors.
-- Create interactive maps and visualizations using libraries such as Folium and Plotly to present the findings in an accessible and informative manner.
+#### **Limitations**
+- **Satellite Data Constraints**: MODIS (1-km) & VIIRS (375-m) limit fire radiative power (FRP) resolution; cloud cover/smoke obscure data.
+- **Temporal Gaps**: ERA5 reanalysis (hourly) may miss sub-hourly fire dynamics; air quality stations lack dense spatial coverage.
+- **Socioeconomic Data Granularity**: Census tract-level analysis may miss intra-tract disparities; lacks real-time displacement/evacuation insights.
+- **Fire Behavior Model Assumptions**: FRP-based intensity lacks ember spotting, topographic effects; wind data may not capture turbulence.
+
+#### **Future Directions**
+- **Machine Learning for Fire Prediction**: Train models on historical fires, FRP, wind & land cover; use CNNs/LSTMs for forecasting.
+- **High-Resolution Monitoring**: Integrate Sentinel-2 (10-30m), Landsat-9, UAV imagery for detailed vegetation & structure damage analysis.
+- **Enhanced Socioeconomic & Health Analysis**: Incorporate real-time mobility, evacuation data; study long-term respiratory health impacts.
+- **Interactive GIS-Based Visualization**: Develop a web dashboard with FRP, air quality & socioeconomic data using Folium/Plotly.
+
 
 ## References 
 - [1] Do, Vivian, et al. "Spatiotemporal distribution of power outages with climate events and social vulnerability in the USA." Nature communications 14.1 (2023): 2470. (https://www.nature.com/articles/s41467-023-38084-6)
