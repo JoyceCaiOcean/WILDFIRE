@@ -39,23 +39,6 @@ This study analyzes the environmental and atmospheric conditions that influenced
 
 ## Methodology
 - Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
-- Geospatial Analysis:
-  - Clipped vegetation and climate raster data to the Palisades and Eaton fire perimeter.
-  - Clipped air pollutant concentrations data to the city of Los Angeles.
-  - Intersected fire intensity/perimeters with census tracts to assess socioeconomic impact.
-  - Analyzed fire intensity and structure damage relative to census tracts.
-- Temporal Aggregation:
-  - Aggregate fire intensity (FRP) on a daily basis over wildfire duration.
-  - Aggregate temperature, wind, precipitation, vegetation density indices, moisture indices and air pollutant concentrations data over wildfire duration for analysis.
-  - Aggregate temperature, wind, precipitation over the past year to understand the long-term effect of environemnt. 
-- Analysis:
-  - Correlated fire intensity with short-term and long-term environment conditions to identify conditions that influenced fire spread.
-  - Correlated fire damage with socioeconomic factors (income, housing type, vulnerability).
-  - Identified vegetation loss using vegation density indices (NDVI, EVI, SAVI, GCI), moisture indices (NDMI and MSI) and burned ratio index (NBRI) analyses.
-  - Identify air quality index based on air pollutant concentrations. 
-  - Assess pre- and post-fire changes in vegetation, air quality, and land use.
-
-*** 
 - Fire Intensity Analysis
   - Integrated fire radiative power (FRP) data from five satellite sources and resampled them to a daily scale for each region.  
   - Computed fire intensity based on pixel size to analyze fire spread and derived the time series of total daily radiative power.  
