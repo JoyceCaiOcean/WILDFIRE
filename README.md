@@ -52,28 +52,28 @@ This study analyzes the environmental and atmospheric conditions that influenced
 - **Air Quality & Environmental Analysis:** `ozon3`
 
 ## Methodology
-- Data Processing (Formatting & Cleaning):  Convert all datasets to a consistent Coordinate Reference System (e.g., EPSG 32611 - WGS 84 / UTM zone 11N)
-- Fire Intensity Analysis
+- Data Processing (Formatting & Cleaning): Convert all datasets to EPSG 32611 - WGS 84 / UTM zone 11N.
+- **Fire Intensity Analysis** (*Fire_Incident_Analysis folder)
   - Integrated fire radiative power (FRP) data from five satellite sources and resampled them to a daily scale for each region.  
   - Computed fire intensity based on pixel size to analyze fire spread and derived the time series of total daily radiative power.  
   - Generated a correlation heatmap to assess relationships between fire radiative power, temperature, wind speed, precipitation, and humidity, identifying key driving factors.  
   - Analyzed the correlation between fire radiative power and air pollutant concentrations (PM2.5 and PM10) to evaluate the fire’s impact on air quality.  
-- Fire Structure Analysis
+- **Fire Structure Analysis**
   - Assessed the distribution of structural damage across different damage levels.  
   - Examined damage patterns within census tracts to identify spatial variations in fire impact.  
-- Land Use Land Cover (LULC) Analysis
+- **Land Use Land Cover (LULC) Analysis**
   - Overlay fire perimeter on LULC plot of Study Area and compute the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.
-- Vegetation Density Analysis
+- **Vegetation Density Analysis**
   - Investigated vegetation density using vegetation, moisture and burned ratio indices.
   - Created mask to remove cloud cover pixels using SCL from Sentinel-2
   - Calculated delta NBRI from the difference between pre-fire NBRI and post-fire NBRI to determine vegetation regrowth potential in the area of study.
-- Air Quality Analysis
+- **Air Quality Analysis**
   - Investigated air pollutant concentrations during wildfire and throughout January 2025 from the World Air Quality Index database and US EPA.
   - Calculated Air Quality Index (AQI) based on the concentration of air pollutants. 
-- Weather Variable Analysis
+- **Weather Variable Analysis**
   - Investigate short & long-term (one-year) trends of weather variables in dataset (Temperature, Wind, Precipitation) and the calculated ones (Specific Humidity).
   - Calculate statistics on weather variables before and during the fire such as Wind Speeds & Direction. 
-- Socioeconomic Analysis
+- **Socioeconomic Analysis**
   - Overlay fire perimeter on demographics plots such as Social Vulnerability Index, Aged Population, Young Population, etc. 
   - Calculate relevant statistics including populations affected per census tract. 
 
