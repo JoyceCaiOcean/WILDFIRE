@@ -3,8 +3,43 @@ Team members: Joyce Tongxin Cai, Yogerej Visvanathan, Kwame Donkor
 
 ## Abstract
 
+{Version one}
+
+Wildfires have become increasingly frequent and severe due to climate change and land-use patterns, significantly impacting ecosystems and human communities. This study focuses on the **January 2025 Palisades and Eaton wildfires** in Los Angeles County, integrating multi-source data to analyze fire behavior, environmental drivers, and socioeconomic impacts.  
+
+By leveraging **fire radiative power (FRP) data** from multiple satellite sources, we quantified the fire's intensity and progression over time. Our findings indicate that the **wildfire spread was driven primarily by strong northeast winds**, compounded by **dry vegetation and prior wet winters** that fueled fire growth. The analysis of air quality data revealed a **sharp increase in PM2.5 concentrations**, leading to **hazardous air quality conditions** throughout the affected areas.  
+
+The **structural impact assessment** showed that **64% of homes in Palisades and 51% in Eaton were destroyed**, with damage disproportionately affecting **high-income and elderly populations** in certain census tracts. Vegetation analysis using **Normalized Burn Ratio Index (NBRI)** confirmed that **nearly 100% of the burned regions had no regrowth potential**, emphasizing the long-term environmental consequences.  
+
+Our research underscores the interconnected nature of **wildfire intensity, atmospheric conditions, air pollution, and social vulnerability**, providing critical insights for future **wildfire risk assessment and mitigation strategies**. The study suggests that **enhanced forecasting models** and **targeted community resilience planning** could help reduce wildfire-related destruction in the future.  
 
 
+{Version two}
+
+Wildfires are becoming increasingly severe due to climate change and land-use patterns, posing serious risks to both ecosystems and communities. This study examines the **January 2025 Palisades and Eaton wildfires** in Los Angeles County, analyzing fire behavior, environmental drivers, and socioeconomic impacts using multi-source data.  
+
+### **Key Findings:**  
+
+- **Fire Behavior & Environmental Drivers:**  
+  - The wildfire spread was **driven primarily by strong northeast winds**.  
+  - **Dry vegetation**, fueled by **past wet winters**, contributed to rapid fire growth.  
+
+- **Fire Intensity & Structure Damage:**  
+  - Fire Radiative Power (FRP) analysis showed significant fire intensity over time.  
+  - **64% of homes in Palisades** and **51% in Eaton** were **destroyed**.  
+  - Structural damage was **disproportionately higher** in census tracts with **high-income and elderly populations**.  
+
+- **Air Quality Impact:**  
+  - The wildfire caused a **sharp increase in PM2.5 concentrations**, leading to **hazardous air quality conditions**.  
+
+- **Vegetation Loss & Recovery Potential:**  
+  - **Nearly 100% of burned regions had no regrowth potential**, based on **Normalized Burn Ratio Index (NBRI)** analysis.  
+
+- **Broader Implications:**  
+  - Wildfire intensity, **atmospheric conditions, air pollution, and social vulnerability** are closely linked.  
+  - Findings highlight the need for **improved wildfire forecasting models** and **targeted community resilience planning** to mitigate future risks.  
+
+By integrating geospatial, environmental, and socioeconomic data, this study provides insights to support **wildfire risk assessment and future mitigation strategies**.  
 
 ## Introduction
 
@@ -17,7 +52,9 @@ This study analyzes the environmental and atmospheric conditions that influenced
 - What were the primary environmental factors driving the 2025 Palisades and Eaton wildfires?
 - How did these wildfires impact structure damage, vegetation, air quality, and socioeconomic communities? 
 
-{A figure for the intro...}
+![Study Area](images/study_area.png)
+*Figure 1: 2025 January Wildfire in Los Angeles County. Source: [Penitentes in Wikipedia](https://en.m.wikipedia.org/wiki/File:January_2025_Southern_California_wildfires_map.png).*
+
 
 ## Datasets
 
@@ -64,10 +101,26 @@ This study analyzes the environmental and atmospheric conditions that influenced
   - Calculate relevant statistics including populations affected per census tract. 
 
 ## Findings / Results 
+![Palisades_Fire_Time_Series](images/palisades_fire.png)
+*Figure 2: Palisades fire spread, colored by fire radiative power density.*
 
-...
-{Insert relevant figures here}
-- figures demonstrating key findings
+![Eaton_Fire_Time_Series](images/eaton_fire.png)
+*Figure 3: Eaton fire spread, colored by fire radiative power density.*
+
+
+* The wildfire was driven by **strong NE winds** and fueled by the **past wet winters & dry** conditions.
+
+
+* The **impacts** of the fire on:
+
+    * **Structure damage:** 64% (Palisades) & 51% (Eaton) of houses destroyed.
+        ![Fire_Structure_Damage](images/Fire_Structure.png)
+        *Figure X: Wildfire impact on structure damage in Palisades and Eaton.*
+
+    * **Vegetation:** ~ 100% of Palisades and Eaton have no regrowth potential.
+    * **Air quality:** Very unhealthy AQI (high PM2.5 concentrations). 
+    * **Socio-economics:** Majority of high-income & aged people affected. 
+
 
 ## Project File Structure 
 
