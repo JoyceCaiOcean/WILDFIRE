@@ -86,11 +86,19 @@ This study analyzes the environmental and atmospheric conditions that influenced
 
 
 ### <span style="color:red;">**RESULT #1**</span>: The wildfire was driven by **strong NE winds** and fueled by the **past wet winters & dry** conditions.
-..{insert figure}
+
+![Short-term Wind Speeds](images/short_term_weather.png)
+*Figure 4: Short-term weather conditions.*
+
+![Wind Rose Plots](images/wind_rose_plots.png)
+*Figure 5: Wind Rose Plots.*
+
+![Long Term Weather Conditions](images/long_term_weather.png)
+*Figure 6: Long-term Weather Conditions.*
 
 ### <span style="color:red;">**RESULT #2**</span>: The **impact** of the fire on **structure damage**: 64% (Palisades) & 51% (Eaton) of houses were destroyed.
 ![Fire_Structure_Damage](images/Fire_Structure.png)
-*Figure X: Wildfire impact on structure damage in Palisades and Eaton.*
+*Figure 7: Wildfire impact on structure damage in Palisades and Eaton.*
 
 ### <span style="color:red;">**RESULT #3**</span>: The **impact** of the fire on **vegetation:** ~ 100% of Palisades and Eaton have no regrowth potential.
 ..{insert figure}
@@ -99,7 +107,8 @@ This study analyzes the environmental and atmospheric conditions that influenced
 ..{insert figure}
 
 ### <span style="color:red;">**RESULT #5**</span>: The **impact** of the fire on **socio-economics:** majority of high-income & aged people affected. 
-..{insert figure}
+![Impact on Demographics](images/demographics.png)
+*Figure X: Impact of Demographics.*
 
 ## Project File Structure 
 
