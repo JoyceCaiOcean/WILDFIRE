@@ -101,7 +101,7 @@ This study analyzes the environmental and atmospheric conditions that influenced
 *Figure 7: Wildfire impact on structure damage in Palisades and Eaton.*
 
 ### <span style="color:red;">**RESULT #3**</span>: The **impact** of the fire on **vegetation:** ~ 100% of Palisades and Eaton have no regrowth potential.
-![NDVI_Analysis](<img width="381" alt="Result_3_NDVI" src="https://github.com/user-attachments/assets/346487e2-3b81-4f24-a67a-ba0e20cd854e" />
+![NDVI_Analysis](<img width="443" alt="Image" src="https://github.com/user-attachments/assets/be75d842-c167-40c6-9717-8b23efcc7f1f" />
 )
 *Figure 8: Vegetation loss in Palisades and Eaton highly correlate with the fire perimeter which is the red boundary line.*
 ![Vegetation_Regrowth_Potential](<img width="443" alt="Result 3" src="https://github.com/user-attachments/assets/037d3aeb-5a20-40d3-b30b-4eb15e615a05" />
