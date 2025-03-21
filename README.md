@@ -62,7 +62,7 @@ This study analyzes the environmental and atmospheric conditions that influenced
   - Assessed the distribution of structural damage across different damage levels.  
   - Examined damage patterns within census tracts to identify spatial variations in fire impact.  
 - **Land Use Land Cover (LULC) Analysis** *(located in `/LULC_ERA5_Land/`)*
-  - Overlay fire perimeter on LULC plot of Study Area and compute the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.
+  - Overlayed fire perimeter on LULC plot of Study Area and computed the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.
 - **Vegetation Density Analysis**
   - Investigated vegetation density using vegetation, moisture and burned ratio indices.
   - Created mask to remove cloud cover pixels using SCL from Sentinel-2
@@ -71,11 +71,11 @@ This study analyzes the environmental and atmospheric conditions that influenced
   - Investigated air pollutant concentrations during wildfire and throughout January 2025 from the World Air Quality Index database and US EPA.
   - Calculated Air Quality Index (AQI) based on the concentration of air pollutants. 
 - **Weather Variable Analysis** *(located in `/LULC_ERA5_Land/`)*
-  - Investigate short & long-term (one-year) trends of weather variables in dataset (Temperature, Wind, Precipitation) and the calculated ones (Specific Humidity).
-  - Calculate statistics on weather variables before and during the fire such as Wind Speeds & Direction. 
+  - Investigated short & long-term (one-year) trends of weather variables in dataset (Temperature, Wind, Precipitation) and the calculated ones (Specific Humidity).
+  - Calculated statistics on weather variables before and during the fire such as Wind Speeds & Direction. 
 - **Socioeconomic Analysis** *(located in `/Socioeconomic_Analysis/`)*
-  - Overlay fire perimeter on demographics plots such as Social Vulnerability Index, Aged Population, Young Population, etc. 
-  - Calculate relevant statistics including populations affected per census tract. 
+  - Overlayed fire perimeter on demographics plots such as Social Vulnerability Index, Aged Population, Young Population, etc. 
+  - Calculated relevant statistics including populations affected per census tract. 
 
 ##  Main Results 
 ![Palisades_Fire_Time_Series](images/palisades_fire.png)
