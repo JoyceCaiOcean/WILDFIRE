@@ -107,8 +107,8 @@ This study analyzes the environmental and atmospheric conditions that influenced
 ..{insert figure}
 
 ### <span style="color:red;">**RESULT #5**</span>: The **impact** of the fire on **socio-economics:** majority of high-income & aged people affected. 
-![Impact on Demographics](images/demographics.png)
-*Figure X: Impact of Demographics.*
+![Impacts on Demographics](images/demographics.png)
+*Figure X: Impacts on Demographics.*
 
 ## Project File Structure 
 
