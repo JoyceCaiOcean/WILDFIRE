@@ -117,7 +117,7 @@ This study analyzes the environmental and atmospheric conditions that influenced
 
 ![Air_Quality_Index](images/Result_4_AQI.png)
 
-*Figure 11: The AQI was very hazardous for 2 days during wildfire and it remained unhealthy for sensitive groups through January 2025.*
+*Figure 11: The AQI was very unhealthy/hazardous for 2 days during wildfire and it remained unhealthy for sensitive groups through January 2025.*
 
 
 ### <span style="color:red;">**RESULT #5**</span>: The **impact** of the fire on **socio-economics:** majority of high-income & aged people affected. 
