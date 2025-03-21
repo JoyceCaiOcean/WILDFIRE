@@ -109,6 +109,9 @@ This study analyzes the environmental and atmospheric conditions that influenced
 
 *Figure 9: Delta NBRI values for Palisades and Eaton indicating low regrowth potential as values are mostly higher than 0.2 (Delta NBRI values are lower than -0.1 for regrowth potential).*
 
+*Table 1: Burned severity values based on delta NBRI).*
+![Severity_Values_DeltaNBRI](images/DeltaNBRI_Severity_Values.png)
+
 
 ### <span style="color:red;">**RESULT #4**</span>: The **impact** of the fire on **air quality:** very unhealthy AQI (high PM2.5 concentrations). 
 ![Air_Pollutant_Concentrations](images/Result_4_Air_Pollutant_Conc.png)
