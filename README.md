@@ -63,11 +63,11 @@ This study analyzes the environmental and atmospheric conditions that influenced
   - Examined damage patterns within census tracts to identify spatial variations in fire impact.  
 - **Land Use Land Cover (LULC) Analysis** *(located in `/LULC_ERA5_Land/`)*
   - Overlayed fire perimeter on LULC plot of Study Area and computed the areas of Built & Tree/Shrub/Grass Cover were affected by the fires.
-- **Vegetation Density Analysis**
+- **Vegetation Density Analysis** *(located in `/Vegetation_Analysis/`)*
   - Investigated vegetation density using vegetation, moisture and burned ratio indices.
   - Created mask to remove cloud cover pixels using SCL from Sentinel-2
   - Calculated delta NBRI from the difference between pre-fire NBRI and post-fire NBRI to determine vegetation regrowth potential in the area of study.
-- **Air Quality Analysis**
+- **Air Quality Analysis** *(located in `/Air_Quality_Analysis/`)*
   - Investigated air pollutant concentrations during wildfire and throughout January 2025 from the World Air Quality Index database and US EPA.
   - Calculated Air Quality Index (AQI) based on the concentration of air pollutants. 
 - **Weather Variable Analysis** *(located in `/LULC_ERA5_Land/`)*
