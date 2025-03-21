@@ -109,7 +109,7 @@ This study analyzes the environmental and atmospheric conditions that influenced
 
 *Figure 9: Delta NBRI values for Palisades and Eaton indicating low regrowth potential as values are mostly higher than 0.2 (Delta NBRI values are lower than -0.1 for regrowth potential).*
 
-*Table 1: Burned severity values based on delta NBRI. Source:[earthdatascience](https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/vegetation-indices-in-python/calculate-dNBR-Landsat-8/)).*
+*Table 1: Burned severity values based on delta NBRI. (Source: [earthdatascience](https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/vegetation-indices-in-python/calculate-dNBR-Landsat-8/)).*
 ![Severity_Values_DeltaNBRI](images/DeltaNBRI_Severity_Values.png)
 
 
