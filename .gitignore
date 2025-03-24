@@ -172,7 +172,3 @@ cython_debug/
 
 
 # for Cai_Folder data
-Fire_Incident_Analysis/DINS/
-Fire_Incident_Analysis/ERA5/
-Fire_Incident_Analysis/plots/
-Fire_Incident_Analysis/Total_FRP/
